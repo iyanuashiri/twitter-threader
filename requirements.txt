@@ -1,1 +1,2 @@
+python-decouple==3.3
 python-twitter==3.5
