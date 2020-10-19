@@ -1,6 +1,6 @@
 import tweepy
 
-from settings import consumer_key, consumer_secret, access_token_key, access_token_secret
+from twitter_threader.settings import consumer_key, consumer_secret, access_token_key, access_token_secret
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
