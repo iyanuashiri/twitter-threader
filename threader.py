@@ -34,6 +34,6 @@ class Thread:
 
     def convert_to_post(self):
         thread = self.get_thread()
-        thread - reversed(thread)
+        thread = reversed(thread)
         post = " ".join(thread)
         return post
