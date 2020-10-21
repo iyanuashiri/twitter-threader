@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Twitter Thread is a list of tools to manage threads on Twitter. You can GET and POST threads on Twitter.
+Twitter Thread is a library to manage threads on Twitter. You can GET and POST threads on Twitter.
 
 
 
@@ -15,10 +15,8 @@ pip install twitter-threader
 
 
 ## Usage
-### Guide
 
-
-- Get a thread on Twitter
+### GET a thread on Twitter
 
 
 ```python
