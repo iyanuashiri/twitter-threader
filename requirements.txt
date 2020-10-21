@@ -1,2 +1,1 @@
-python-dotenv==0.14.0
 tweepy==3.9.0
