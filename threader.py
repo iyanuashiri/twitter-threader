@@ -8,7 +8,7 @@ class Thread:
 
         self.api = tweepy.API(auth)
 
-    def get_thread(self, status_id=None, thread=None):
+    def get_thread(self, status_id, thread=None):
         status = self.api.get_status(status_id, tweet_mode='extended') if status_id is None else self.api.get_status(status_id, tweet_mode='extended')
         thread = [] if thread is None else thread
         status_id = status.in_reply_to_status_id
