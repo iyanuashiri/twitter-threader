@@ -13,12 +13,12 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = 'twitter-threader'
-DESCRIPTION = 'A Tool to save commands used in terminal and create a backup on Google drive'
+DESCRIPTION = 'Twitter Thread is a library to manage threads on Twitter. You can GET and POST threads on Twitter.'
 URL = 'https://github.com/iyanuashiri/twitter-threader'
 EMAIL = 'ajaoiyanu@gmail.com'
 AUTHOR = 'Iyanuoluwa Ajao'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.2.0'
+VERSION = '0.2.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
