@@ -1,3 +1,4 @@
+import textwrap
 import tweepy
 
 
@@ -24,3 +25,13 @@ class Thread:
         thread = reversed(thread)
         post = " ".join(thread)
         return post
+
+    def _check_username(self, user):
+        user = self.api.get_user(user)
+        screen_name = user.screen_name
+        return screen_name
+
+    def _convert_username(self, username):
+        mention = f'@{self._check_username(username)} '
+        return mention
+
