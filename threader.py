@@ -35,12 +35,13 @@ class Thread:
         mention = f'@{self._check_username(username)} '
         return mention
 
-    def post_thread(self, sentences, username=None, in_reply_to_status_id=None, thread=None):
+    def post_thread(self, sentences, username, in_reply_to_status_id=None, thread=None):
         mention = self._convert_username(username)
         mention_length = len(mention)
         left = 280 - mention_length
 
         thread = [] if thread is None else thread
+        print(thread)
         tweets = textwrap.wrap(sentences, width=left)
         for tweet in tweets:
             sentences = sentences[len(tweet):]
