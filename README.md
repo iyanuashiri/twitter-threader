@@ -45,6 +45,4 @@ thread.post_thread('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 
 ## Testing
 
-```bash
-pytest
-```
+[] Add test
