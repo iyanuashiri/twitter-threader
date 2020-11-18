@@ -18,7 +18,7 @@ URL = 'https://github.com/iyanuashiri/twitter-threader'
 EMAIL = 'ajaoiyanu@gmail.com'
 AUTHOR = 'Iyanuoluwa Ajao'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.3.1'
+VERSION = '1.4.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
