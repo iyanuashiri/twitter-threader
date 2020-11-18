@@ -3,11 +3,8 @@ import tweepy
 
 
 class Thread:
-    def __init__(self, consumer_key, consumer_secret, access_token_key, access_token_secret):
-        auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-        auth.set_access_token(access_token_key, access_token_secret)
-
-        self.api = tweepy.API(auth)
+    def __init__(self, api):
+        self.api = api
 
     def get_thread(self, status_id, thread=None):
         status = self.api.get_status(status_id, tweet_mode='extended') if status_id is None else self.api.get_status(status_id, tweet_mode='extended')
